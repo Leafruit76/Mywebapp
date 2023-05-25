@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Webapp</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+
+    #header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .movie-container {
+      width: 45%;
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .movie-container h2 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .movie-container p {
+      color: #777;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .movie-container img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header id="header">
+    <h1>My Webapp</h1>
+  </header>
+
+  <div id="content">
+    <div class="movie-container">
+      <img src="movie1.jpg" alt="Movie 1">
+      <h2>Movie 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis urna ac metus aliquet, sit amet vestibulum ligula bibendum. Sed tincidunt ullamcorper enim sed gravida.</p>
+    </div>
+
+    <div class="movie-container">
+      <img src="movie2.jpg" alt="Movie 2">
+      <h2>Movie 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis urna ac metus aliquet, sit amet vestibulum ligula bibendum. Sed tincidunt ullamcorper enim sed gravida.</p>
+    </div>
+  </div>
+</body>
+</html>
